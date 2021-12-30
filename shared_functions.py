@@ -5,7 +5,7 @@ import os
 import copy
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"  HW2 - Shared functions between all parts 
+"    Shared functions
 "    Point location
 "     
 "   Author: Ziv Aharoni
