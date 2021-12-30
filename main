@@ -139,7 +139,7 @@ if __name__ == "__main__":
 
     # import pictures
     data_path = os.path.join(os.getcwd(), 'Scenes data\\')
-    file_name = 'Scene'
+    file_name = 'Scene6'
     if os.path.isfile(file_name + '.jpeg'):
         img1 = cv.imread(file_name + '.jpeg')
     else:
