@@ -2,10 +2,9 @@ import os
 import sys
 import matplotlib.pyplot as plt
 sys.path.insert(1, os.path.join(os.getcwd(), '..\\'))
-from DP_HW2_ZA_302628474_shared_functions import *
+from shared_functions import *
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"   HW2 - Question 3 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
 "   Point location
 "     
 "   Author: Ziv Aharoni
@@ -140,7 +139,7 @@ if __name__ == "__main__":
 
     # import pictures
     data_path = os.path.join(os.getcwd(), 'Scenes data\\')
-    file_name = 'Scene6'
+    file_name = 'Scene'
     if os.path.isfile(file_name + '.jpeg'):
         img1 = cv.imread(file_name + '.jpeg')
     else:
